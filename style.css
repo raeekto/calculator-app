@@ -1,0 +1,79 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+form {
+  width: 100%;
+  height: 200px;
+  padding: 30px;
+  background-color: rgb(16, 140, 249);
+}
+
+.text-style {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+form input {
+  outline: none;
+  width: 65px;
+  height: 25px;
+  padding: 10px;
+  border-radius: 10px;
+  overflow-x: auto;
+}
+
+button {
+  margin-top: 10%;
+  padding: 5px;
+  border: 2px solid red;
+  border-radius: 5px;
+}
+
+button:hover {
+  margin-left: 5px;
+  padding: 10px;
+  font-weight: 900;
+  background: yellow;
+  color: blueviolet;
+}
+
+#alert1 {
+  display: none;
+  width: 30%;
+  height: 35px;
+  padding: 10px;
+  background: rgb(232, 249, 49);
+  border-radius: 45px;
+  border: 3px solid red;
+  font-weight: 900;
+  position: fixed;
+  top: 10px;
+  right: 12px;
+  overflow: none;
+}
+
+p {
+  margin-top: 20px;
+  font-size: larger;
+  font-style: italic;
+  font-weight: 900;
+  padding: 12px;
+}
+
+.container {
+  width: 200px;
+  height: 150px;
+  margin-left: 1rem;
+  margin-bottom: 2rem;
+  padding: 20px;
+  overflow: auto;
+  background-color: aqua;
+  padding: 10px;
+  border-radius: 15px;
+  border: 10px solid green;
+  overflow: auto;
+  display: none;
+}
